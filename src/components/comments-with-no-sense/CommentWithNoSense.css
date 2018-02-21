@@ -1,0 +1,45 @@
+.comment-with-no-sense-container{
+    background-color: rgb(47, 54, 71);
+    height: 844px;
+    width: 23%;
+    margin-right: 80px;
+ 
+}
+
+.name-app{
+    color:white;
+    font-size: 35px;
+    margin-left: 7%;
+    margin-top: 20px;
+    margin-bottom: 1px;
+    font-family: Arial;
+}
+
+.name-comment{
+    color:grey;
+    font-size: 18px;
+    margin-left: 7%;
+    margin-top: 3px;
+    font-family: Arial;
+}
+
+.comments-with-no-sense{
+    color: white;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 7%;    
+    
+}
+
+.comments-with-no-sense > div{
+    padding: 5px 0;
+}
+
+.add-c{
+    outline:none;
+    margin-top: 20px;
+    margin-left: 7%;
+    height: 30px;
+    width: 70%;
+    padding-left: 5px;
+}

@@ -1,0 +1,54 @@
+.one-item{
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid 1px #e6e6e6;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    margin-left: 4%;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-between;
+    position: relative;
+    margin-right: 20px;
+}
+
+
+.one-item.selected::before{
+    content: '';
+    background-color: red;
+    padding-top: 65px;
+    padding-left: 5px;
+    position: absolute;
+    left: -18px;
+    bottom: 0px;
+}
+
+.name{
+    font-weight: bold;
+    display: flex;
+    font-size: 17px;
+    align-self: center;
+}
+
+.name > .count{
+    margin-left: 10px;
+    padding: 0 5px;
+    top: 0;
+    right: -30px;
+    background-color: rgb(44, 214, 185);
+    border-radius: 20px;
+    height: 20px;
+    color:white;
+    text-align: center;
+}
+
+.delete{
+    border-color: red;
+    color: red;
+    background-color: white;
+    border-radius: 3px;
+    outline:none;
+    width: 90px;
+    height: 35px;
+    font-size: 15px;
+}

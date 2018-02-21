@@ -1,0 +1,37 @@
+.comments-container{
+    width: 33%;
+    height: 700px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    margin-top: 20px;   
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.comments{
+    margin-left: 7%;
+    margin-top: 20px;
+    font-size:35px;
+    color: rgb(84, 85, 89);
+    font-family: Arial; 
+}
+
+.new-coment{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.neutral-avatar{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(230, 230, 230);
+    margin-right: 10px;
+
+}
+
+.input-comment{
+    height: 70px;
+    width: 80%;
+    outline:none;
+}

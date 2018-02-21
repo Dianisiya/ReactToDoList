@@ -1,0 +1,9 @@
+.main-component{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    margin:0;
+    padding: 0;
+}
